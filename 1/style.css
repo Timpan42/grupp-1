@@ -1,0 +1,73 @@
+.wrapper {
+    grid-auto-rows:100px;
+    border: 5px solid #676363;
+    border-radius: 5px;
+    background-color: #f9f7f4;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  column-gap: 10px;
+  row-gap: 1em;
+    
+    
+  }
+
+  .one{
+    background-color: antiquewhite;
+    border: 5px solid #151515;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+
+
+  }
+
+  .two{
+    background-color: aqua;
+    border: 5px solid #151515;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+  
+
+.three{
+    background-color: rgb(98, 67, 67);
+    border: 5px solid #151515;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+
+
+}
+
+/*.four{
+    background-color: blue;
+    border: 5px solid #151515;
+ 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+     <div class="four">Four</div>
+        <div class="five">Five</div>
+
+}
+
+.five{
+    background-color: brown;
+    border: 5px solid #151515;
+    grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
